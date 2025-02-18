@@ -10,29 +10,39 @@ export default function Table() {
     const columns = useMemo<MRT_ColumnDef<Pregled>[]>(
         () => [
             {
-                accessorKey: 'lekar',
-                header: 'Ime lekara',
+                accessorKey: 'id_pregleda',
+                header: 'ID Pregleda',
                 size: 150,
             },
             {
-                accessorKey: 'tip_lekar',
-                header: 'Tip lekara',
+                accessorKey: 'id_pacijenta',
+                header: 'ID Pacijenta',
                 size: 150,
             },
             {
-                accessorKey: 'klinika',
-                header: 'Klinika',
+                accessorKey: 'datum_pregleda',
+                header: 'Datum Pregleda',
                 size: 150,
             },
             {
-                accessorKey: 'adresa',
-                header: 'Adresa',
+                accessorKey: 'pregledao_lekar',
+                header: 'Lekar',
                 size: 200,
             },
             {
-                accessorKey: 'grad',
-                header: 'Grad',
-                size: 150,
+                accessorKey: 'dijagnoza',
+                header: 'Dijagnoza',
+                size: 200,
+            },
+            {
+                accessorKey: 'terapija',
+                header: 'Terapija',
+                size: 200,
+            },
+            {
+                accessorKey: 'napomene',
+                header: 'Napomene',
+                size: 200,
             },
         ],
         [],

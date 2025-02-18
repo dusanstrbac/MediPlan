@@ -1,55 +1,43 @@
 // RUCNA BAZA PODATAKA. KASNIJE NAPRAVITI SQL I POVEZATI GA SA API-JEM
 
 import { Pregled } from "@/lib/definitions";
+import { BazaPodataka } from "@/lib/definitions";
 
-export const data: Pregled[] = [
+export const baza: BazaPodataka[] = [
     {
-        lekar: 'Dusan Strbac',
-        tip_lekar: 'Lekar opste prakse',
-        klinika: 'Dom Zdravlja Zvezdara',
+        id: 1,
+        ime_pacijenta: 'Dusan Strbac',
+        razlog: 'Bol u usima',
         adresa: 'Nebojsina 21',
         grad: 'Uzice',
     },
     {
-        lekar: 'Marko Markovic',
-        tip_lekar: 'Psihijatar',
-        klinika: 'Dr. Laza Lazarevic',
-        adresa: 'Grcica Milenka 412',
+        id: 2,
+        ime_pacijenta: 'Dusan Markovic',
+        razlog: 'Bol u grudima',
+        adresa: 'Svetog Klimenta 3',
         grad: 'Beograd',
     },
     {
-        lekar: 'Stefan Savic',
-        tip_lekar: 'Neurohirurg',
-        klinika: 'Institut za majku i dete',
-        adresa: 'Ustanicka 128',
-        grad: 'Zrenjanin',
-    },
-    {
-        lekar: 'Nemanja Markovic',
-        tip_lekar: 'Kardiovaskularni hirurg',
-        klinika: 'Urgentni Centar Beograd',
-        adresa: 'Kozarceva 18',
-        grad: 'Pozarevac',
-    },
-    {
-        lekar: 'Matija Nedeljkovic',
-        tip_lekar: 'Neurolog',
-        klinika: 'Media Group Klinika',
-        adresa: 'Dr. Velizara Kosanovica 1',
-        grad: 'Beograd',
-    },
-    {
-        lekar: 'Milan Kovac',
-        tip_lekar: 'Neurolog',
-        klinika: 'MediPlan Klinika',
-        adresa: 'Kraljeva 12',
-        grad: 'Zagreb',
-    },
-    {
-        lekar: 'Milutin Milankovic',
-        tip_lekar: 'Oftamolog',
-        klinika: 'MediPlan Klinika',
-        adresa: 'Nebojsina 4',
-        grad: 'Novi Sad',
+        id: 3,
+        ime_pacijenta: 'Nebojsa Markovic',
+        razlog: 'Bol u usima',
+        adresa: 'Nebojsina 21',
+        grad: 'Uzice',
     }
+];
+
+
+
+export const data: Pregled[] = [
+    {
+        id_pregleda: 1,
+        id_pacijenta: 10,
+        datum_pregleda: '12.02.2024',
+        pregledao_lekar: 'Marko Markovic',
+        dijagnoza: 'Glavobolja',
+        terapija: 'Brufen 200mg',
+        napomene: 'Poseta za 2 meseca',
+    },
+
 ];

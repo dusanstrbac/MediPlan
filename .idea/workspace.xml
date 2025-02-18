@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be917186-d8f3-46e3-90e3-8492df6d889a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/login/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/register/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/metrici/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/terapije/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/alerts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(oauth)/register/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(oauth)/signin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/zakazivanja/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ustanove/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/komoda.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/komoda.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/definitions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/definitions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +47,9 @@
     &quot;accountId&quot;: &quot;9fdd1ccd-4920-4e85-b371-d5bed1a5738f&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -35,20 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\Projekti\\health_care\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.route.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Projekti/health_care",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SQL Dialects",
+    "ts.external.directory.path": "F:\\Projekti\\health_care\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -61,6 +94,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Projekti\health_care\app\user" />
+      <recent name="F:\Projekti\health_care\app\[user]" />
+      <recent name="F:\Projekti\health_care\app\(oauth)" />
+      <recent name="F:\Projekti\health_care\app\(ouath)\signin" />
+      <recent name="F:\Projekti\health_care\app\(ouath)\register" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,7 +115,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739307777795</updated>
-      <workItem from="1739307778841" duration="14699000" />
+      <workItem from="1739307778841" duration="14964000" />
+      <workItem from="1739327573723" duration="210000" />
+      <workItem from="1739387558084" duration="1649000" />
+      <workItem from="1739411642346" duration="11163000" />
+      <workItem from="1739464841293" duration="1381000" />
+      <workItem from="1739552568506" duration="37000" />
+      <workItem from="1739799924145" duration="22909000" />
+      <workItem from="1739833816569" duration="1837000" />
+      <workItem from="1739880988643" duration="23000" />
+      <workItem from="1739909296657" duration="4331000" />
     </task>
     <servers />
   </component>

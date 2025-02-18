@@ -11,7 +11,7 @@ export default function Home() {
     const router = useRouter();
 
     function SendToRegister() {
-        router.push('/user/register')
+        router.push('register')
     }
 
     return (
@@ -65,6 +65,3 @@ export default function Home() {
         </>
     );
 }
-
-// NAZIV: MediPlan
-// MOTO: Vaš digitalni pomoćnik za zdravlje
